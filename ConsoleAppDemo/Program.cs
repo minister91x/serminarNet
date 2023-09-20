@@ -16,5 +16,9 @@ Employee employee = new Employee()
 };
 
 Console.WriteLine("Record {0}", employee);
+const string constantAttribute = "awesome";
+const string constantMessage = $"Code maze is {constantAttribute}.";
+
+Console.WriteLine(constantMessage);
 
 Console.ReadKey();
